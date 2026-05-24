@@ -2,7 +2,7 @@
 
 [![MonSnap CI Pipeline](https://github.com/credkellar-boop/Monsnap/actions/workflows/super-lint.yml/badge.svg)](https://github.com/credkellar-boop/Monsnap/actions/workflows/super-lint.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org/)
 
 MonSnap is an intelligent, high-performance edge computing video surveillance platform. Built using Python, OpenCV, and Google Cloud Services, MonSnap implements multi-threaded pipelines to capture real-time RTSP security camera feeds natively, cross-reference data using a centralized People Search engine, and execute contextual intelligence evaluations using Gemini AI and Google Maps.
@@ -39,5 +39,3 @@ MonSnap/
 ├── README.md                # Project documentation and deployment guide
 ├── main.py                  # Main orchestration loop and runtime logic
 └── requirements.txt         # Project package dependencies
-
----
