@@ -41,23 +41,3 @@ MonSnap/
 └── requirements.txt         # Project package dependencies
 
 ---
-
-## 📁 Repository Architecture
-
-```text
-MonSnap/
-├── .github/
-│   └── workflows/
-│       └── super-lint.yml   # Automated CI/CD pipeline configuration
-├── core/
-│   ├── __init__.py          # Identifies core directory as an importable module
-│   ├── face_detector.py     # Haar Cascade implementation and coordinate scaling
-│   └── stream_handler.py    # Threaded RTSPCameraStream connection manager
-├── data/
-│   ├── known_faces/         # Reference database for facial validation matching
-│   └── snapshots/           # Target destination directory for captured faces
-├── .gitignore               # Excludes virtual environments and temporary cache files
-├── LICENSE                  # MIT Open-Source License
-├── README.md                # Project documentation and deployment guide
-├── main.py                  # Main orchestration loop and runtime logic
-└── requirements.txt         # Project package dependencies
